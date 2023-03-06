@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    top: 0px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 6% 94%;
+    background-color: rgba(0, 0, 0, 0.932);
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    /* border: 1px solid chocolate; */
+}
+
+aside div a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside div p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 9px;
+}
+
+aside div img{
+    height: 23px;
+}
+
+.barra_lateral{
+    margin-bottom: 20px;  
+}
+
+nav{
+
+}
+
+#Barra_Superior{
+    display: flex;
+    align-items: center;
+}
+
+#logo_Youtube{
+    height: 40px;
+    margin-right: 18vw;
+}
+
+#search{
+    display: flex;
+    
+
+}
+
+#input_search{
+    background-color: rgb(80, 69, 69);
+    border: 1px solid rgb(51, 49, 49);
+    border-radius: 28px 0px 0px 28px;
+    width: 360px;
+    height: 25px;
+    
+}
+
+#img_Lupa{
+    background-color: rgb(99, 76, 76);
+    border: 1px solid rgb(51, 49, 49);
+    border-radius: 0px 28px 28px 0px;
+    height: 25px;
+}
+
+#img_Lupa img{
+    display: flex;
+    height: 25px;
+}
+
+#micro{
+    background-color: rgb(99, 76, 76);
+    border: 1px solid rgb(51, 49, 49);
+    border-radius: 28px;
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 28vw;
+}
+
+#micro img{
+    height: 25px;
+}
+
+#right{
+    display: flex;
+    
+}
+
+#right img{
+    height: 25px;
+    
+}
+
+#barra_Inferior{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 94%;
+}
+
+#barra_Inferior button{
+    background-color: rgb(99, 76, 76) ;
+    border: 1px solid rgb(51, 49, 49);
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 40px;
+}
+
+.imagen_Principal{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.logo_Perfil img{
+    height: 35px;
+    margin-right: 5px;
+} 
+
+.descripcion_Video{
+    display: flex; 
+    margin-bottom: 40px;
+    color: aliceblue;
+}
+
+.p_titulo{
+    font-size: 14px;
+}
+
+
+.p_p{
+    width: 180px ;
+    font-size: 12px;
+    color: rgb(72, 69, 75);
+
+}
+
+
+
+
+
+
+
+
